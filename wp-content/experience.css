@@ -1,0 +1,67 @@
+.partner-logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    /* Center the container */
+}
+
+.partner-logo {
+    flex: 1;
+    /* Take equal width in a row on larger screens */
+    max-width: 130px;
+    /* Adjust the maximum width as needed */
+    height: auto;
+    display: block;
+    margin: 10px;
+    /* Add some spacing between logos */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+}
+
+@media (min-width: 768px) {
+
+    /* Apply sliding animation on screens larger than 767px */
+    .partner-logos-container {
+        overflow: hidden;
+    }
+
+    .partner-logo {
+        animation: slide 10s linear infinite;
+        /* Adjust the duration as needed */
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-100%);
+        }
+
+        50% {
+            transform: translateX(-200%);
+        }
+
+        75% {
+            transform: translateX(-300%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .partner-logo {
+        flex: 0 0 100%;
+        /* Take full width in a column on smaller screens */
+        animation: none;
+        /* Disable the animation on smaller screens */
+    }
+}
