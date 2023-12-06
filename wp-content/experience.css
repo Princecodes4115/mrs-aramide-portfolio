@@ -1,67 +1,146 @@
 .partner-logos-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    /* Adjust the maximum width as needed */
-    margin: 0 auto;
-    /* Center the container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  /* Center the container */
 }
 
 .partner-logo {
-    flex: 1;
-    /* Take equal width in a row on larger screens */
-    max-width: 130px;
-    /* Adjust the maximum width as needed */
-    height: auto;
-    display: block;
-    margin: 10px;
-    /* Add some spacing between logos */
-    box-sizing: border-box;
-    /* Include padding and border in the width */
+  flex: 1;
+  /* Take equal width in a row on larger screens */
+  max-width: 130px;
+  /* Adjust the maximum width as needed */
+  height: auto;
+  display: block;
+  margin: 10px;
+  /* Add some spacing between logos */
+  box-sizing: border-box;
+  /* Include padding and border in the width */
 }
 
 @media (min-width: 768px) {
+  /* Apply sliding animation on screens larger than 767px */
+  .partner-logos-container {
+    overflow: hidden;
+  }
 
-    /* Apply sliding animation on screens larger than 767px */
-    .partner-logos-container {
-        overflow: hidden;
+  .partner-logo {
+    animation: slide 10s linear infinite;
+    /* Adjust the duration as needed */
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
     }
 
-    .partner-logo {
-        animation: slide 10s linear infinite;
-        /* Adjust the duration as needed */
+    25% {
+      transform: translateX(-100%);
     }
 
-    @keyframes slide {
-        0% {
-            transform: translateX(0);
-        }
-
-        25% {
-            transform: translateX(-100%);
-        }
-
-        50% {
-            transform: translateX(-200%);
-        }
-
-        75% {
-            transform: translateX(-300%);
-        }
-
-        100% {
-            transform: translateX(0);
-        }
+    50% {
+      transform: translateX(-200%);
     }
+
+    75% {
+      transform: translateX(-300%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
 }
 
 @media (max-width: 767px) {
-    .partner-logo {
+  .partner-logo {
+    flex: 0 0 100%;
+    /* Take full width in a column on smaller screens */
+    animation: none;
+    /* Disable the animation on smaller screens */
+  }
+}
+
+.container_carousel {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/* Styles for the carousel container */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+/* Styles for the carousel slides */
+.carousel-slide {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .carousel-slide {
         flex: 0 0 100%;
-        /* Take full width in a column on smaller screens */
-        animation: none;
-        /* Disable the animation on smaller screens */
     }
+}
+
+/* Styles for the images */
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for the active slide */
+.active {
+    display: block;
+}
+
+.arrow-div {
+    position: absolute;
+    display: flex;
+    gap: 2rem;
+    right: 30%;
+    bottom: 1%;
+}
+
+/* Styles for the navigation arrows */
+.arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+    /* Ensure arrows are rendered above the slides */
+}
+
+.thought-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+.thought-button-div {
+  display: flex;
+  justify-content: start;
+}
+
 }
