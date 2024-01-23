@@ -1157,7 +1157,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		
 		.widget .nectar_widget[class*="nectar_blog_posts_"][data-style="hover-featured-image-gradient-and-counter"] > li a .popular-featured-img:after {
 		background: #ff6b30; 
-		background: linear-gradient(to right, #ff6b30, #FDC435); 
+		background: linear-gradient(to right, #ff6b30, #FCDDEC); 
 	}.divider-small-border[data-color="extra-color-gradient-1"], 
 		.divider-border[data-color="extra-color-gradient-1"], 
 		.nectar-progress-bar .extra-color-gradient-1,
@@ -1166,14 +1166,14 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
     .wpb_row .nectar-post-grid-filters[data-active-color="extra-color-gradient-1"] a:after,
 		.nectar-recent-posts-single_featured.multiple_featured .controls[data-color="extra-color-gradient-1"] li:after, 
 		.nectar-fancy-box[data-style="default"][data-color="extra-color-gradient-1"]:after {
-			background: #FDC435; 
-		  background: linear-gradient(to right, #FDC435, #ff6b30); 
+			background: #FCDDEC; 
+		  background: linear-gradient(to right, #FCDDEC, #ff6b30); 
 		}
     
     .nectar-scrolling-tabs[data-color-scheme="extra-color-gradient-1"] .scrolling-tab-nav .line,
     #ajax-content-wrap [data-stored-style="vs"] .tabbed[data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li a:before {
-      background: #FDC435; 
-		  background: linear-gradient(to bottom, #FDC435, #ff6b30); 
+      background: #FCDDEC; 
+		  background: linear-gradient(to bottom, #FCDDEC, #ff6b30); 
     }
 		
 		.icon-normal.extra-color-gradient-1, 
@@ -1190,16 +1190,16 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.nectar_icon_wrap[data-style="soft-bg"][data-color="extra-color-gradient-1"] .nectar_icon:before,
     .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-gradient-1"] .nectar_icon:after,
     .nectar-post-grid-wrap[data-load-more-color="extra-color-gradient-1"] .load-more:before {
-			 background: #FDC435; 
-		   background: linear-gradient(to bottom right, #FDC435, #ff6b30); 
+			 background: #FCDDEC; 
+		   background: linear-gradient(to bottom right, #FCDDEC, #ff6b30); 
 		}
 		
 		body.material .nectar-button.regular.m-extra-color-gradient-1, 
 		body.material .nectar-button.see-through.m-extra-color-gradient-1:before,
 		.swiper-slide .button.solid_color .extra-color-gradient-1, 
 		.swiper-slide .button.transparent_2 .extra-color-gradient-1:before {
-			 background: #FDC435; 
-		   background: linear-gradient(125deg, #FDC435, #ff6b30);
+			 background: #FCDDEC; 
+		   background: linear-gradient(125deg, #FCDDEC, #ff6b30);
 		}
 		body.material .nectar-button.regular.m-extra-color-gradient-1:before {
 			 background: #ff6b30; 
@@ -1227,8 +1227,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		
 		
 		.testimonial_slider[data-rating-color="extra-color-gradient-1"] .star-rating .filled:before {
-			 color: #FDC435;
-			 background: linear-gradient(to right, #FDC435, #ff6b30); 
+			 color: #FCDDEC;
+			 background: linear-gradient(to right, #FCDDEC, #ff6b30); 
 			 -webkit-background-clip: text;
 			 -webkit-text-fill-color: transparent;
 			 background-clip: text;
@@ -1239,20 +1239,20 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.nectar-button.see-through-extra-color-gradient-1 {
 			 border-width: 3px;
 			 border-style: solid;
-		   -moz-border-image: -moz-linear-gradient(top right, #FDC435 0%, #ff6b30 100%);
-		   -webkit-border-image: -webkit-linear-gradient(top right, #FDC435 0%,#ff6b30 100%);
-		   border-image: linear-gradient(to bottom right, #FDC435 0%, #ff6b30 100%);
+		   -moz-border-image: -moz-linear-gradient(top right, #FCDDEC 0%, #ff6b30 100%);
+		   -webkit-border-image: -webkit-linear-gradient(top right, #FCDDEC 0%,#ff6b30 100%);
+		   border-image: linear-gradient(to bottom right, #FCDDEC 0%, #ff6b30 100%);
 		   border-image-slice: 1;
 		}
 		
 		.nectar-gradient-text[data-color="extra-color-gradient-1"][data-direction="horizontal"] * { 
-			background-image: linear-gradient(to right, #FDC435, #ff6b30);  
+			background-image: linear-gradient(to right, #FCDDEC, #ff6b30);  
 		}
 		
 		.nectar-gradient-text[data-color="extra-color-gradient-1"] *, 
 		.nectar-icon-list[data-icon-style="border"][data-icon-color="extra-color-gradient-1"] .list-icon-holder[data-icon_type="numerical"] span {
-			 color: #FDC435;
-			 background: linear-gradient(to bottom right, #FDC435, #ff6b30); 
+			 color: #FCDDEC;
+			 background: linear-gradient(to bottom right, #FCDDEC, #ff6b30); 
 			 -webkit-background-clip: text;
 			 -webkit-text-fill-color: transparent;
 			 background-clip: text;
@@ -1265,8 +1265,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		[class^="icon-"].extra-color-gradient-1:not(.icon-normal):before, 
 		[class*=" icon-"].extra-color-gradient-1:not(.icon-normal):before,
 		.nectar_icon_wrap[data-color="extra-color-gradient-1"]:not([data-style="shadow-bg"]) i {
-			  color: #FDC435;
-			  background: linear-gradient(to bottom right, #FDC435, #ff6b30); 
+			  color: #FCDDEC;
+			  background: linear-gradient(to bottom right, #FCDDEC, #ff6b30); 
 			  -webkit-background-clip: text;
 			  -webkit-text-fill-color: transparent;
 			  background-clip: text;
@@ -1275,8 +1275,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		}
 		.nectar-button.extra-color-gradient-1 .hover, 
 		.nectar-button.see-through-extra-color-gradient-1 .start {
-			  background: #FDC435; 
-			  background: linear-gradient(to bottom right, #FDC435, #ff6b30); 
+			  background: #FCDDEC; 
+			  background: linear-gradient(to bottom right, #FCDDEC, #ff6b30); 
 			  -webkit-background-clip: text;
 			  -webkit-text-fill-color: transparent;
 			  background-clip: text;
@@ -1287,7 +1287,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.nectar-button.extra-color-gradient-1.no-text-grad .hover, 
 		.nectar-button.see-through-extra-color-gradient-1.no-text-grad .start {
 			 background: transparent!important;
-			 color: #FDC435!important; 
+			 color: #FCDDEC!important; 
 		}.divider-small-border[data-color="extra-color-gradient-2"], 
 		.divider-border[data-color="extra-color-gradient-2"], 
 		.nectar-progress-bar .extra-color-gradient-2,
@@ -1297,13 +1297,13 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.nectar-recent-posts-single_featured.multiple_featured .controls[data-color="extra-color-gradient-2"] li:after, 
 		.nectar-fancy-box[data-style="default"][data-color="extra-color-gradient-2"]:after {
 			background: #ff6b30; 
-		  background: linear-gradient(to right, #ff6b30, #FDC435); 
+		  background: linear-gradient(to right, #ff6b30, #FCDDEC); 
 		}
     
     .nectar-scrolling-tabs[data-color-scheme="extra-color-gradient-2"] .scrolling-tab-nav .line,
     #ajax-content-wrap [data-stored-style="vs"] .tabbed[data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li a:before {
       background: #ff6b30; 
-		  background: linear-gradient(to bottom, #ff6b30, #FDC435); 
+		  background: linear-gradient(to bottom, #ff6b30, #FCDDEC); 
     }
 		
 		.icon-normal.extra-color-gradient-2, 
@@ -1321,7 +1321,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
     .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-gradient-2"] .nectar_icon:after,
     .nectar-post-grid-wrap[data-load-more-color="extra-color-gradient-2"] .load-more:before {
 			 background: #ff6b30; 
-		   background: linear-gradient(to bottom right, #ff6b30, #FDC435); 
+		   background: linear-gradient(to bottom right, #ff6b30, #FCDDEC); 
 		}
 		
 		body.material .nectar-button.regular.m-extra-color-gradient-2, 
@@ -1329,36 +1329,36 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.swiper-slide .button.solid_color .extra-color-gradient-2, 
 		.swiper-slide .button.transparent_2 .extra-color-gradient-2:before {
 			 background: #ff6b30; 
-		   background: linear-gradient(125deg, #ff6b30, #FDC435);
+		   background: linear-gradient(125deg, #ff6b30, #FCDDEC);
 		}
 		body.material .nectar-button.regular.m-extra-color-gradient-2:before {
-			 background: #FDC435; 
+			 background: #FCDDEC; 
 		}
 		
 		.tabbed[data-style*="material"][data-color-scheme="extra-color-gradient-2"] ul:after { 
-			background-color: #FDC435;
+			background-color: #FCDDEC;
 		}
 		
 		.tabbed[data-style*="material"][data-color-scheme="extra-color-gradient-2"] ul li .active-tab:after { 
-			box-shadow: 0px 18px 50px #FDC435; 
+			box-shadow: 0px 18px 50px #FCDDEC; 
 		}
 		
 		.nectar-fancy-box[data-style="color_box_hover"][data-color="extra-color-gradient-2"]:before { 
-			box-shadow: 0px 30px 90px #FDC435; 
+			box-shadow: 0px 30px 90px #FCDDEC; 
 		}
     
     .tabbed[data-style="minimal_flexible"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav > li a:before {
-      box-shadow: 0px 8px 22px #FDC435;
+      box-shadow: 0px 8px 22px #FCDDEC;
     } 
     
     .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-gradient-2"] .nectar_icon:before {
-      box-shadow: 0px 15px 28px #FDC435; opacity: 0.3; 
+      box-shadow: 0px 15px 28px #FCDDEC; opacity: 0.3; 
     }  
 		
 		
 		.testimonial_slider[data-rating-color="extra-color-gradient-2"] .star-rating .filled:before {
 			 color: #ff6b30;
-			 background: linear-gradient(to right, #ff6b30, #FDC435); 
+			 background: linear-gradient(to right, #ff6b30, #FCDDEC); 
 			 -webkit-background-clip: text;
 			 -webkit-text-fill-color: transparent;
 			 background-clip: text;
@@ -1369,20 +1369,20 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.nectar-button.see-through-extra-color-gradient-2 {
 			 border-width: 3px;
 			 border-style: solid;
-		   -moz-border-image: -moz-linear-gradient(top right, #ff6b30 0%, #FDC435 100%);
-		   -webkit-border-image: -webkit-linear-gradient(top right, #ff6b30 0%,#FDC435 100%);
-		   border-image: linear-gradient(to bottom right, #ff6b30 0%, #FDC435 100%);
+		   -moz-border-image: -moz-linear-gradient(top right, #ff6b30 0%, #FCDDEC 100%);
+		   -webkit-border-image: -webkit-linear-gradient(top right, #ff6b30 0%,#FCDDEC 100%);
+		   border-image: linear-gradient(to bottom right, #ff6b30 0%, #FCDDEC 100%);
 		   border-image-slice: 1;
 		}
 		
 		.nectar-gradient-text[data-color="extra-color-gradient-2"][data-direction="horizontal"] * { 
-			background-image: linear-gradient(to right, #ff6b30, #FDC435);  
+			background-image: linear-gradient(to right, #ff6b30, #FCDDEC);  
 		}
 		
 		.nectar-gradient-text[data-color="extra-color-gradient-2"] *, 
 		.nectar-icon-list[data-icon-style="border"][data-icon-color="extra-color-gradient-2"] .list-icon-holder[data-icon_type="numerical"] span {
 			 color: #ff6b30;
-			 background: linear-gradient(to bottom right, #ff6b30, #FDC435); 
+			 background: linear-gradient(to bottom right, #ff6b30, #FCDDEC); 
 			 -webkit-background-clip: text;
 			 -webkit-text-fill-color: transparent;
 			 background-clip: text;
@@ -1396,7 +1396,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		[class*=" icon-"].extra-color-gradient-2:not(.icon-normal):before,
 		.nectar_icon_wrap[data-color="extra-color-gradient-2"]:not([data-style="shadow-bg"]) i {
 			  color: #ff6b30;
-			  background: linear-gradient(to bottom right, #ff6b30, #FDC435); 
+			  background: linear-gradient(to bottom right, #ff6b30, #FCDDEC); 
 			  -webkit-background-clip: text;
 			  -webkit-text-fill-color: transparent;
 			  background-clip: text;
@@ -1406,7 +1406,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.nectar-button.extra-color-gradient-2 .hover, 
 		.nectar-button.see-through-extra-color-gradient-2 .start {
 			  background: #ff6b30; 
-			  background: linear-gradient(to bottom right, #ff6b30, #FDC435); 
+			  background: linear-gradient(to bottom right, #ff6b30, #FCDDEC); 
 			  -webkit-background-clip: text;
 			  -webkit-text-fill-color: transparent;
 			  background-clip: text;
@@ -2263,7 +2263,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
     #header-outer.transparent #top nav ul .slide-out-widget-area-toggle a .lines {
       opacity: 1;
     }body #header-outer #top .slide-out-widget-area-toggle[data-custom-color="true"] a:before {
-      background-color: #FDC435;
+      background-color: #FCDDEC;
     }
     
     @media only screen and (max-width: 999px) {
