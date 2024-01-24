@@ -1,12 +1,12 @@
 
 .projects_button_black_bg {
 margin-top: 20px;
-border-color: #ffd60a !important;
+border-color: #4361EE !important;
 z-index: 9999;
 color: white !important;
 }
 
 .projects_button_black_bg:hover {
-background-color: #ffd60a !important;
+background-color: #4361EE !important;
 color: white !important;
 }

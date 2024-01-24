@@ -831,7 +831,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		div[data-style="minimal"] .toggle.extra-color-2.open h3 a, 
 		div[data-style="minimal_small"] .toggle.extra-color-2 > h3 a:hover, 
 		div[data-style="minimal_small"] .toggle.extra-color-2.open > h3 a {
-			color: #fffae7;
+			color: #FCDDEC;
 		}
 		
 		
@@ -850,7 +850,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		 .nectar_single_testimonial[data-color="extra-color-2"] p .open-quote, 
 		 .nectar-icon-list[data-icon-color="extra-color-2"] .nectar-icon-list-item .list-icon-holder[data-icon_type="numerical"],
 		 .no-highlight.extra-color-2 h3 {
-			color: #fffae7!important;
+			color: #FCDDEC!important;
 		}
 		
 
@@ -889,7 +889,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		div[data-style="minimal_small"] .toggle.extra-color-2 > h3:after,
 		.toggle.open.extra-color-2 h3 a,
     .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-2"] .nectar-list-item-btn:hover {
-			background-color: #fffae7;
+			background-color: #FCDDEC;
 		}
 		
 		.nectar-button.regular-button.extra-color-2, 
@@ -926,37 +926,37 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.swiper-slide .button.solid_color_2 .extra-color-2,
 		.pricing-column.highlight.extra-color-2 h3
 		{
-			background-color: #fffae7!important;
+			background-color: #FCDDEC!important;
 		}
 		
 		.nectar-leaflet-map[data-nectar-marker-color="extra-color-2"] .nectar-leaflet-pin { 
-			border: 10px solid #fffae7; 
+			border: 10px solid #FCDDEC; 
 		}
 		
 		.nectar_icon_wrap .svg-icon-holder[data-color="extra-color-2"] svg path { 
-			stroke:#fffae7!important; 
+			stroke:#FCDDEC!important; 
 		}
 		
 		body.material[data-button-style^="rounded"] .nectar-button.see-through.extra-color-2[data-color-override="false"] i:after { 
-			box-shadow: #fffae7 0px 8px 15px; opacity: 0.24; 
+			box-shadow: #FCDDEC 0px 8px 15px; opacity: 0.24; 
 		}
     .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-2"] .nectar_icon:before {
-      box-shadow: 0px 15px 28px #fffae7; opacity: 0.3; 
+      box-shadow: 0px 15px 28px #FCDDEC; opacity: 0.3; 
     }   
     
     .tabbed[data-style="minimal_flexible"][data-color-scheme="extra-color-2"] .wpb_tabs_nav > li a:before {
-      box-shadow: 0px 8px 22px #fffae7;
+      box-shadow: 0px 8px 22px #FCDDEC;
     } 
 		
 		.tabbed[data-style*="material"][data-color-scheme="extra-color-2"] ul li .active-tab:after { 
-			 box-shadow: 0px 18px 50px  #fffae7; 
+			 box-shadow: 0px 18px 50px  #FCDDEC; 
 		 }
 		
 		.nectar-fancy-box[data-style="color_box_hover"][data-color="extra-color-2"]:before { 
-			box-shadow: 0 30px 90px #fffae7; 
+			box-shadow: 0 30px 90px #FCDDEC; 
 		} 
     .nectar-fancy-box[data-style="hover_desc"][data-color="extra-color-2"]:before {
-      background: linear-gradient(to bottom, rgba(0,0,0,0), #fffae7 100%);
+      background: linear-gradient(to bottom, rgba(0,0,0,0), #FCDDEC 100%);
     }
 		
 		body .col:not(.post-area):not(.span_12):not(#sidebar):hover .extra-color-2.hovered .circle-border, 
@@ -971,16 +971,16 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] .play:after,
 		.tabbed[data-color-scheme="extra-color-2"][data-style="default"] li:not(.cta-button) .active-tab,
     .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-2"]:hover { 
-			border-color:#fffae7; 
+			border-color:#FCDDEC; 
 		}
 		
 		body.material .nectar-button.see-through.extra-color-2[data-color-override="false"] { 
-			border-color:#fffae7!important; 
+			border-color:#FCDDEC!important; 
 		}
 		
 		
 		.im-icon-wrap[data-color="extra-color-2"] path {
-				 fill: #fffae7;
+				 fill: #FCDDEC;
 		}
 		
 		
@@ -1821,7 +1821,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#footer-outer #footer-widgets .widget h4, 
 		#footer-outer .col .widget_recent_entries span, 
 		#footer-outer .col .recent_posts_extra_widget .post-widget-text span { 
-			color:#fffae7!important; 
+			color:#FCDDEC!important; 
 		}
 		#footer-outer #copyright,
 		.ascend #footer-outer #copyright { 
@@ -1831,10 +1831,10 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#footer-outer #copyright .widget h4, 
 		#footer-outer #copyright li a i, 
 		#footer-outer #copyright p { 
-			color:#fffae7; 
+			color:#FCDDEC; 
 		} 
 		#footer-outer[data-cols="1"] #copyright li a i:after { 
-			border-color:#fffae7; 
+			border-color:#FCDDEC; 
 		}
 		#footer-outer #copyright li a:hover i, 
 		#footer-outer[data-cols="1"] #copyright li a:hover i, 
